@@ -1,0 +1,25 @@
+{
+  "name": "decentralized-star-notary-service-project",
+  "version": "1.0.0",
+  "description": "Create a DApp by adding functionality with your smart contract and depoy it on the public testnet",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "@webpack-cli/serve": "^1.7.0",
+    "openzeppelin-solidity": "2.3",
+    "truffle-hdwallet-provider": "^1.0.6",
+    "web3": "^1.7.4"
+  },
+  "main": "webpack.config.js",
+  "author": "",
+  "license": "ISC"
+}
